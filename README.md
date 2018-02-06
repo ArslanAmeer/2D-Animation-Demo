@@ -1,4 +1,4 @@
-# 2D-Animation-Demo-HTML-CSS-JS
+# 2D-Animation-Demo
 ## CSS 2D Animation Demo made in *HTML5*, *CSS3* & *JS*.
 
 A Running Car Demo which is done by Css properties and animation(Keyframes).
