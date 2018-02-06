@@ -8,7 +8,7 @@ A Running Car Demo which is done by Css properties and animation(Keyframes).
 
 
 ----------
-**TRY IT NOW:  [2D-Animation-DEMO](https://arslanameer.github.io/2D-Animation-Demo-HTML-CSS-JS/)**
+**TRY IT NOW:  [2D-Animation-DEMO](https://arslanameer.github.io/2D-Animation-Demo/)**
 
 ## NOTE:
   Practice For Fun!
