@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded",function(){
     },false);
 
     document.getElementById("gitBtn").addEventListener("click",function(){
-        window.open("https://github.com/ArslanAmeer/2D-Animation-Demo-HTML-CSS-JS","_blank");
+        window.open("https://github.com/ArslanAmeer/2D-Animation-Demo","_blank");
     },false);
 
 });
