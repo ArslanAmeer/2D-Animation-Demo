@@ -1,0 +1,144 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-y: hidden;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: #b62321;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.playground {
+    background: url("../../../assets/images/playground.jpg");
+    background-size: 850px;
+    background-repeat: no-repeat;
+    background-color:  #b62321;
+    height: 607px;
+    width: 100%;
+
+}
+
+#box {
+    height: 100px;
+    width: 100px;
+    background: url("../../../assets/images/car.png");
+    background-size:100px 100px;
+    transform: translate(720px,3px);
+}
+
+#box:active{
+    animation-play-state: paused;       
+}
+
+#logo{
+    height: 190px;
+    width: 232px;
+    background-image: url("../../../assets/images/roll.png");
+    background-size:232px 190px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #b62321;
+    margin: auto;
+}
+
+.controls{
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.startButton{
+    height: 225px;
+    width: 100%;
+    background-image: url("../../../assets/images/engStart.png");
+    background-size:225px 225px;
+}
+
+.stopButton{
+    height: 225px;
+    width: 100%;
+    background-image: url("../../../assets/images/engStop.png");
+    background-size:225px 225px;
+}
+
+.start{
+    animation: Glider infinite 7s ease-in-out;
+}
+
+.stop{
+    animation-play-state: paused;
+}
+
+#brake{
+    height: 100px;
+    width: 100%;
+    background-image: url("../../../assets/images/brake.png");
+    background-size:30% 100%;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+}
+
+button{
+    border-top: 2px solid #da3330;
+    border-left: 2px solid #da3330;
+    border-right: 2px solid #960e0c;
+    border-bottom: 2px solid #960e0c;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #b62321;
+    margin: auto;
+}
+
+button:active{
+    border-top: 2px solid #960e0c;
+    border-left: 2px solid #960e0c;
+    border-right: 2px solid #da3330;
+    border-bottom: 2px solid #da3330;
+}
+p:last-child{
+    margin-top:1px;
+}
+
+#gitBtn{
+    align-self: center;
+    margin-top: 10px;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+
+@keyframes Glider {
+    0%{
+        transform: translate(720px,3px);        
+    }
+    25%{
+        transform: translate(20px,3px);
+    }
+    28%{
+        transform: translate(20px,3px) rotate(-90deg);
+    }
+    50%{
+        transform: translate(20px,504px) rotate(-90deg);
+    }
+    53%{
+        transform: translate(20px,504px) rotate(-180deg);
+    }
+    75%{
+        transform: translate(730px,504px) rotate(-180deg);
+    }
+    78%{
+        transform: translate(730px,504px) rotate(-270deg);
+    }
+    97%{
+        transform: translate(730px,3px) rotate(-270deg);
+    }
+    100%{
+        transform:translate(730px,3px) rotate(-360deg);
+    }
+}
